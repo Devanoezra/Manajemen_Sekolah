@@ -1,0 +1,94 @@
+body 
+{
+  background: url(../img/2.jpg);
+  background-size:100%;
+  background-repeat:no-repeat;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.form 
+{
+  width: 400px;
+  margin: auto;
+  font-size: 18px;
+  padding-top: 90px;
+}
+.form-header,
+.form p 
+{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.form-header 
+{
+  background: #ffffff;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  border-radius: 120px;
+}
+.form-container
+{
+  background: #000000b4;
+  padding: 12px;
+}
+
+.form p 
+{
+  padding: 10px;
+}
+
+.form input 
+{
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 20;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+
+.form input[type="text"] 
+{
+  background: #fff;
+  border-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+.form input[type="text"]:focus 
+{
+  border-color: rgb(114, 114, 114);
+}
+
+.form input[type="submit"] 
+{
+  background: #000000;
+  color: #fff;
+  width:50%;
+  border-radius: 10px 20px 10px 20px;
+  transition:0.2s;
+  text-align: center;
+  margin: 10px auto 0 auto;
+  cursor: pointer;
+}
+
+.form input[type="submit"]:hover 
+{
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  width:70%;
+  transition:0.3s;
+  border-radius: 20px 10px;
+}
+
+.form input[type="submit"]:focus 
+{
+  border-color: rgb(0, 0, 0);
+}

@@ -1,0 +1,247 @@
+body{
+  background: url(../img/1.jpg) ;
+}
+
+#Div
+{
+display: none;
+text-align: center;
+}
+
+#nav
+  {
+   background-color: rgb(255, 255, 255);
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 29px;
+   color:rgb(0, 0, 0);
+  }
+
+.sidenav
+  {
+     height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      padding-top: 10px;
+      transition: 0.2s;
+  }
+
+.sidenav a
+  {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 20px;
+      color: rgb(255, 255, 255);
+      display: block;
+      transition: 0.3s
+  }
+
+  .sidenav a:hover
+  {
+      color: #ffffff62;
+  }
+
+  .sidenav .closebtn
+  {
+      position: absolute;
+      top: 0;
+      right: 0px;
+      font-size: 30px;
+      margin-left: 35px;
+  }
+
+  body
+  {
+    overflow-x: hidden;
+  }
+
+  .topnav
+  {
+      background: rgb(190, 190, 190);
+      position: fixed;
+  }
+
+  #Open {
+    color: white;
+  }
+
+  .topnav a
+  {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 8px 12px;
+      text-decoration: none;
+      font-size: 15px;
+  }
+
+  .topnav a:hover
+  {
+      background-color: white;
+      color: rgb(255, 255, 255);
+      transition: 0.3s;
+  }
+
+  h2
+  {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-style: solid;
+    width: 940px;
+    margin-left: 185px;
+    font-size: 30px;
+    border-width: 4px;
+
+  }
+
+  table
+  {
+    margin: 0px auto;
+    width: 65%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #666;
+    background: #ececec;
+    border: #ccc 1px solid;
+  }
+
+  table th
+  {
+    color:rgb(255, 255, 255);
+    padding: 12px 35px;
+    border-bottom: 1px solid #818181;
+    background: #000000;
+  }
+
+  table th:first-child
+  {
+    border-left:none;
+  }
+
+  table tr
+  {
+    text-align: center;
+    padding-left: 20px;
+  }
+
+  table td
+  {
+    padding: 10px 30px;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+  }
+
+  table tr:last-child td
+  {
+    border-bottom: 0;
+  }
+
+  table tr:hover td
+  {
+    color: #000000;
+    background: #ffffff;
+  }
+
+  #edit
+  {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+#edit:hover
+  {
+  color: rgb(70, 70, 70);
+  }
+
+#hapus
+  {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  }
+
+#hapus:hover
+  {
+color: rgb(65, 65, 65);
+  }
+
+ input[type="submit"]
+ {
+  background: #ffffff;
+  border-color: transparent;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  width:50px;
+  height: 50px;
+  border-radius: 10px 10px 10px 10px;
+  transition:0.2s;
+  text-align: center;
+  margin: 10px auto 0 auto;
+ }
+
+input[type="submit"]:hover
+{
+  background: rgb(211, 211, 211);
+  transition:0.5s;
+  color:rgb(0, 0, 0);
+}
+
+.cari
+{
+  float: center;
+  padding: 10px;
+  margin-left: 648px;
+  font-size: 24px;
+
+}
+
+#src
+{
+  text-align:center;
+  width: 100px;
+  height: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border-style: solid;
+  margin-left: 150px;
+  font-size: 20px;
+}
+#tambah {
+  font-size: 20px;
+  margin-left: 181px;
+  margin-bottom: 100px;
+  color: white;
+  font-family: inherit;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-style: solid;
+  font-size: 30px;
+  border-width: 4px;
+}
+
+#drop {
+  text-align:center;
+  width: 200px;
+  height: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border-style: solid;
+  font-size: 20px;
+}
+#back
+{
+  margin-left: 1070px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size : 18px;
+  width: 100px;
+}

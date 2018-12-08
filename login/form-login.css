@@ -1,0 +1,115 @@
+body
+  {
+    background: url(img/deva.jpg);
+    background-size:100%;
+    background-repeat:no-repeat;
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    margin-left: 500px;
+  }
+.login
+  {
+    width: 350px;
+    margin: 140px auto;
+    font-size: 16px;
+  }
+
+  .login-header,
+  .login p
+  {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .login-header
+  {
+    background: #000000b4;
+    padding: 23px;
+    font-size: 1.7em;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 60px 60px 0px 0px ;
+
+  }
+
+  .login-container
+  {
+    background: #9696967c;
+    padding: 12px;
+    border-radius: 0px 0px 1000px 1000px;
+  }
+
+  .login p
+  {
+    padding: 12px;
+    font-size: 18px;
+  }
+
+  .login input
+  {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1,5px;
+    padding: 16px;
+    outline: 25;
+    font-family: inherit;
+    font-size: 0.95em;
+    border-style: solid;
+  }
+
+  .login input[type="text"],
+
+  .login input[type="password"]
+  {
+    background: #fff;
+    border-color: rgb(0, 0, 0);
+    color: #555;
+    border-radius: 20px;
+  }
+
+  .login input[type="text"]:focus,
+  .login input[type="password"]:focus
+  {
+    border-color: #000000;
+    border-width: 4px;
+    overflow: hidden;
+  }
+
+  .login input[type="submit"]
+  {
+    background: transparent;
+    border-color: #000000;
+    border-width: 5px;
+    color:#000000;
+    cursor: pointer;
+    width:50%;
+    border-radius: 80px 80px 10px 10px;
+    transition:0.3s;
+    text-align: center;
+    margin: 10px auto 0 auto;
+    border-style: solid;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .login input[type="submit"]:hover
+  {
+    background:#000000;
+    width:50%;
+    transition:0.5s;
+    border-radius: 10px 10px 80px 80px;
+    color: white;
+  }
+
+  #check
+  {
+    cursor: pointer;
+    width: 20px;
+    float:left;
+  }
+  p
+  {
+    font-family: sans-serif;
+  }
